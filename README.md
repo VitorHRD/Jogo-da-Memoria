@@ -6,7 +6,7 @@
 <p>✅ O algoritimo embaralhar as cartas automaticamente.</p>
 <p>✅ Possui um LockMode.</p>
 <p>✅ Avança de nivéis indo até o nivel 3 de dificuldade.</p>
-<p>✅ Pussui dark mode.</p>
+<p>✅ Pussui dark mode que salva no localStorage.</p>
 <h2 color="blue" align="center">
 <a href="https://VitorHRD.github.io/Jogo-da-Memoria/">🔗 Jogar</a>
 </h2
