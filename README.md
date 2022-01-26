@@ -1,6 +1,6 @@
 
-<h1 align="center" size="200px">Jogo da memória<h1>
-<p align="center">Fiz esse jogo para colocar meus conhecimentos em Pratica</p>
+<h1 align="center" >Jogo da memória<h1>
+<h2 align="center">Fiz esse jogo para colocar meus conhecimentos em Prática</h2>
 <h1 > 🚀Features</h1>
 <p>✅ O algoritimo cria as cartas automaticamente.</p>
 <p>✅ O algoritimo embaralhar as cartas automaticamente.</p>
