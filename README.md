@@ -5,8 +5,8 @@
 <p>✅ O algoritimo cria as cartas automaticamente.</p>
 <p>✅ O algoritimo embaralhar as cartas automaticamente.</p>
 <p>✅ Possui um LockMode.</p>
-<p>✅ Avança de nivéis.</p>
-<p>✅ pussui dark mode.</p>
+<p>✅ Avança de nivéis indo até o nivel 3 de dificuldade.</p>
+<p>✅ Pussui dark mode.</p>
 <h2 color="blue" align="center">
 <a href="https://VitorHRD.github.io/Jogo-da-Memoria/">🔗 Jogar</a>
 </h2
