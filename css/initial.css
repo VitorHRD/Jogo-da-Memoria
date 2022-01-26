@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sarala&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.dark{
+    background-color: #101c2c;
+    color: white;
+}
+.light{
+    background-color: #ffff;
+}
+
+.toggle {
+    position: relative;
+    height: 95% ;
+    padding: 0;
+    align-self: flex-start;
+    margin: 30px;
+}
+
+.toggle > input {
+    display: none;
+}
+
+.toggle > label {
+    position: relative;
+    display: block;
+    height: 28px;
+    width: 52px;
+    background-color: #f7f7f7;
+    border: 1.5px #a2e3e6 solid;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.toggle > label:after {
+    position: absolute;
+    left: 0.1px;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.836);
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+    content: '';
+    transition: all 0.3s ease;
+}
+.toggle > input:checked ~ label:after {
+    left: 24px;
+}
+.toggle > input:disabled ~ label {
+    background-color: #d5d5d5;
+    pointer-events: none;
+}
+#emoji{
+    text-align: center;
+    font-size: 30px;
+}
+#emoji2{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Sarala',sans-serif;
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+button{
+    
+        padding: 25px;
+        font-size: 25px;
+        background-color: yellow;
+        border:none;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        
+}
+button:hover{
+    cursor: pointer;
+    padding: 35px;
+    border: white 1px solid;
+    transition: 0.2s;
+}
